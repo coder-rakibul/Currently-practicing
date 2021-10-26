@@ -1,11 +1,17 @@
 'use stric';
 
-const number = [4, 3, 5, 4, 3, 2, 9, 10, 8, 5];
+const number = ['a', 'e', 'i', 'o', 'u', 'A', 'E', "I", 'O', 'U'];
 
-const dublicatSearch = number.filter(function(value, index, array){
-    return array.indexOf(value) !== index
-});
+function mufunc(sentenc){
+    let count = 0;
+    const stringConvat = Array.from(sentenc);
+    stringConvat.forEach(function(value){
+        if(number.includes(value)){
+            count++;
+        }
+    })
+    return count;
+}
 
-console.log(dublicatSearch);
-
+console.log(mufunc("I love my cuntry"));
 
