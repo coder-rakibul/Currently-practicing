@@ -1,17 +1,20 @@
 'use stric';
+class Parson{
+    constructor(name, id, school, scclass, status){
+        this.name = name;
+        this.id = id;
+        this.school = school;
+        this.scclass = scclass;
+        this.status = status;
+    };
+    car(){
+        console.log("My car name is " + this.name);
+    }
+};
 
-const number = ['a', 'e', 'i', 'o', 'u', 'A', 'E', "I", 'O', 'U'];
+// const myInfo = new Parson("Rakibul Islam");
 
-function mufunc(sentenc){
-    let count = 0;
-    const stringConvat = Array.from(sentenc);
-    stringConvat.forEach(function(value){
-        if(number.includes(value)){
-            count++;
-        }
-    })
-    return count;
-}
+// console.log(`My name is ${myInfo.name}`);
+const par = new Parson("Tasla");
 
-console.log(mufunc("I love my cuntry"));
-
+par.car()
