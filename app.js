@@ -34,9 +34,10 @@ const myInfo = {
         "lastName": "Islam"
     }
 };
-myInfo.forEach(function(value){
-    console.log(value);
-});
+
+for (const key in myInfo) {
+    console.log(myInfo[key]);
+}
 
 // Dont responce with loop
 
@@ -50,3 +51,9 @@ const textToJavaScript = JSON.parse(textJson);
 textToJavaScript.employees.forEach(function(value){
     console.log(value.firstName + " " + value.lastName);
 })
+
+
+const myPost = {name: "Rakibul"};
+
+const proses = JSON.stringify(myPost)
+console.log(proses);
