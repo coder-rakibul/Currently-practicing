@@ -1,59 +1,39 @@
-'use stric';
-const employ = {
-    "name": [
-        {"firstName": "Rakibul", "lastName": "Islam"},
-        {"firstName": "Shorna", "lastName": "Islam"},
-        {"firstName": "Samoli", "lastName": "Islam"}
-    ]
-};
-// Loop
-employ.name.forEach(function(value){
-    console.log(value);
-});
-// W3School Refarance
-const json = {
-    "employees":[
-      {"firstName":"John", "lastName":"Doe"},
-      {"firstName":"Anna", "lastName":"Smith"},
-      {"firstName":"Peter", "lastName":"Jones"}
-    ]
+const myPoro = `Rakibul Software is a software comparny in Bangladash. it's very big largias comprny.
+                Rakibul Software Athor names is Rakibul Islam. He is a very jinias and lajant boy.
+                Her youube channal names is Rakibul Tachnology
+`;
+
+const machChake = myPoro.match(/Rakibul/ig);
+const lanthOfNumber = machChake ? machChake.length : 0;
+console.log(lanthOfNumber);
+// Rakibul world in Index number
+const myProses = myPoro.search(/Rakibul/i);
+const chackIndex = myProses >= 0 ? myProses : "Not found";
+console.log(chackIndex);
+
+
+// Secend Provelm
+
+let array = [
+    "Rakibul",
+    "Tisa",
+    "Nusrat",
+    "Sada",
+    "Fatama"
+];
+
+for(let x = 0; x < array.length; x++){
+    console.log(array[x]);
 }
 
-// No responsc with loop
-
-const myInfo = {
-    "name": "Rakibul",
-    "id": 120,
-    "addras": "Bangladash",
-    "myInfo": {
-        "firstName": "Rakibul",
-        "lastName": "Islam"
-    },
-    "herInfo": {
-        "firstName": "Shorna",
-        "lastName": "Islam"
-    }
+function myName(array, value){
+    let length = array.length;
+    for(let x = 0; x < length; x++){
+        if(array[x] === value){
+            return x;
+        };
+    };
+    return "Not found!";
 };
+console.log(myName(['a', 'b', 'c', 'd'], 'c'));
 
-for (const key in myInfo) {
-    console.log(myInfo[key]);
-}
-
-// Dont responce with loop
-
-let textJson = '{ "employees" : [' +
-'{ "firstName":"John" , "lastName":"Doe" },' +
-'{ "firstName":"Anna" , "lastName":"Smith" },' +
-'{ "firstName":"Peter" , "lastName":"Jones" } ]}';
-
-const textToJavaScript = JSON.parse(textJson);
-
-textToJavaScript.employees.forEach(function(value){
-    console.log(value.firstName + " " + value.lastName);
-})
-
-
-const myPost = {name: "Rakibul"};
-
-const proses = JSON.stringify(myPost)
-console.log(proses);
