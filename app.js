@@ -1,35 +1,20 @@
 "use strict";
-// Sub: Prototype
 
-function Parson(name, age) {
-    let parsone = Object.create(Parson.prototype);
-    parsone.nmae = name;
-    parsone.age = age;
-    return parsone;
+class Parson{
+    constructor (name, age){
+        this.name = name;
+        this.age = age;
+    };
+    eat(){
+        console.log(`I am eating.`);
+    };
+    seelp(){
+        console.log(`I am seeleping.`);
+    };
 };
 
-Parson.prototype = {
-    eat() {
-        console.log(`Parson is eating`);
-    },
-    sleep() {
-        console.log(`Parsone is seleping`);
-    },
-    play() {
-        console.log(`Parsone is plaing`);
-    }
-}
+const rakib = new Parson("Rakibul", 14);
+const shorna = new Parson("Shorna Islma", 16);
+rakib.eat()
+console.log(rakib.name + " " + rakib.age);
 
-const sakib = Parson("Sakib", 16);
-sakib.eat()
-
-console.log(sakib);
-
-const caption = {
-    name: "Masafi",
-    age: 34,
-    cuntry: "Bangladash"
-};
-
-const playar = Object.create(caption)
-console.log(playar.name + ", " + playar.age);
