@@ -1,4 +1,4 @@
-"use strict";
+// "use strict";
 
 // class Car{
 //     constructor(brand){
@@ -10,11 +10,11 @@
 // };
 
 // class Modale extends Car {
-//     constructor (brand, modle){
-//         super(brand)
+//     constructor (brad, modle){
+//         super(brad)
 //         this.modleName = modle;
 //     };
-//     carModle(){
+//     static carModle(){
 //         return this.myCar() + "." + " this modle name is " + this.modleName;
 //     };
 // };
@@ -22,32 +22,44 @@
 
 // const findCarName = new Modale("Rolax", 1234);
 
-// console.log(findCarName.carModle());
+// console.log(Modale.carModle());
+
+// // class Car {
+// //     constructor(brand) {
+// //       this.carname = brand;
+// //     }
+// //     present() {
+// //       return 'I have a ' + this.carname;
+// //     }
+// //   }
+  
+// //   class Model extends Car {
+// //     constructor(brand, mod) {
+// //       super(brand);
+// //       this.model = mod;
+// //     }
+// //     show() {
+// //       return this.present() + ', it is a ' + this.model;
+// //     }
+// //   }
+  
+// //   let myCar = new Model("Ford", "Mustang");
+  
+// //   console.log(myCar.show());
 
 class Car {
-    constructor(brand) {
-      this.carname = brand;
+    constructor(name) {
+      this.name = name;
     }
-    present() {
-      return 'I have a ' + this.carname;
-    }
-  }
-  
-  class Model extends Car {
-    constructor(brand, mod) {
-      super(brand);
-      this.model = mod;
-    }
-    show() {
-      return this.present() + ', it is a ' + this.model;
+    static hello(name) {
+      return "My car name is " + name + this.name;
     }
   }
   
-  let myCar = new Model("Ford", "Mustang");
+  let myCar = new Car("Ford");
   
-  console.log(myCar.show());
-
-
+  // You can calll 'hello()' on the Car Class:
+  console.log(Car.hello("Rolax "))
 
 
   
