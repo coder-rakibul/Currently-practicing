@@ -1,20 +1,19 @@
 "use strict";
-
-class Parson{
-    constructor (name, age){
-        this.name = name;
-        this.age = age;
+class Car{
+    constructor(name, year){
+        this.carName = name;
+        this.carOld = year;
     };
-    eat(){
-        console.log(`I am eating.`);
-    };
-    seelp(){
-        console.log(`I am seeleping.`);
+    carab(sprid){
+        console.log(this.carName + " " + "is raning " + sprid);
     };
 };
 
-const rakib = new Parson("Rakibul", 14);
-const shorna = new Parson("Shorna Islma", 16);
-rakib.eat()
-console.log(rakib.name + " " + rakib.age);
+const bmw = new Car("BMW", 2023);
+const firari = new Car("FIrari", 2022);
+const lamorgini = new Car("Lamorgini", 2026);
 
+
+bmw.carab("100 km par hour")
+firari.carab("100 km par hour")
+lamorgini.carab("100 km par hour")
