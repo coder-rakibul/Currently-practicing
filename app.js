@@ -1,19 +1,53 @@
 "use strict";
-class Car{
-    constructor(name, year){
-        this.carName = name;
-        this.carOld = year;
-    };
-    carab(sprid){
-        console.log(this.carName + " " + "is raning " + sprid);
-    };
-};
 
-const bmw = new Car("BMW", 2023);
-const firari = new Car("FIrari", 2022);
-const lamorgini = new Car("Lamorgini", 2026);
+// class Car{
+//     constructor(brand){
+//         this.carName = brand;
+//     };
+//     myCar(){
+//         return "I have a " + this.carName;
+//     };
+// };
+
+// class Modale extends Car {
+//     constructor (brand, modle){
+//         super(brand)
+//         this.modleName = modle;
+//     };
+//     carModle(){
+//         return this.myCar() + "." + " this modle name is " + this.modleName;
+//     };
+// };
 
 
-bmw.carab("100 km par hour")
-firari.carab("100 km par hour")
-lamorgini.carab("100 km par hour")
+// const findCarName = new Modale("Rolax", 1234);
+
+// console.log(findCarName.carModle());
+
+class Car {
+    constructor(brand) {
+      this.carname = brand;
+    }
+    present() {
+      return 'I have a ' + this.carname;
+    }
+  }
+  
+  class Model extends Car {
+    constructor(brand, mod) {
+      super(brand);
+      this.model = mod;
+    }
+    show() {
+      return this.present() + ', it is a ' + this.model;
+    }
+  }
+  
+  let myCar = new Model("Ford", "Mustang");
+  
+  console.log(myCar.show());
+
+
+
+
+  
