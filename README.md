@@ -17,150 +17,150 @@ Watch tutorials on each topic (YouTube)
 Participating in the Learn With Sumit quiz.
 
 
-# Basic Section In JavaScript: 
+# Basic Section In JavaScript: <br/><br/>
 
-* Basic Concept
-Variable			
-Var let and const
-Operators
-Arithmetic operators
-Assignment operators
-Data type
-Function
-Objects
-Events
-String
-String method
-String search
-Number
-Number method
-Array
-Array method
-Array sort
-Array iteration
-Array const
-Dates format
-Math
-Random
-Boolean
-Comparison Operator
-If else, else, else if
-Switch
-JavaScript Loop [While, for, for in, for of, forElse]
-Brack
-JavaScript Iterables
-Set
-Map
-TypeOf
-Type conversions
-Bitwise Operators
-Regular Expiration
-Error Handling
-Scope
-Hosting
-This Keyword
-Array function
-Classes
-JSON
-Debugging
-JavaScript Version And History
-* JS Version
-JS 2009 (ES5)
-JS 2015 (ES6)
-JS 2016
-JS 2017
-JS 2018
-JS History
-* JavaScript Objects
-Objects Definitions
-Object Properties
-Object Methods
-Object Display
-Object Accessors
-Object Constructors
-Object Prototype
-Object literables
-Object Set
-Object Map
-Object Reference
-* JavaScript Function
-Function Definitions
-Function Parameters
-Function Invocation
-Function Call
-Function Apply
-JavaScript Function Closures
-* JavaScript Classes
-Class Intro
-Class Inheritance
-Static Methods
-# Not complited bat resently stard after sumit vi relesd next epesode
-* JS Async
-JS Callbacks
-JS Asynchronous
-JS Promises
-JS Async/Await
-* JS HTML DOM
-JS Dom Intro
+* Basic Concept <br/><br/>
+Variable<br/>
+Var let and const<br/>
+Operators<br/>
+Arithmetic operators<br/>
+Assignment operators<br/>
+Data type<br/>
+Function<br/>
+Objects<br/>
+Events<br/>
+String<br/>
+String method<br/>
+String search<br/>
+Number<br/>
+Number method<br/>
+Array<br/>
+Array method<br/>
+Array sort<br/>
+Array iteration<br/>
+Array const<br/>
+Dates format<br/>
+Math<br/>
+Random<br/>
+Boolean<br/>
+Comparison Operator<br/>
+If else, else, else if<br/>
+Switch<br/>
+JavaScript Loop [While, for, for in, for of, forElse]<br/>
+Brack<br/>
+JavaScript Iterables<br/>
+Set<br/>
+Map<br/>
+TypeOf<br/>
+Type conversions<br/>
+Bitwise Operators<br/>
+Regular Expiration<br/>
+Error Handling<br/>
+Scope<br/>
+Hosting<br/>
+This Keyword<br/>
+Array function<br/>
+Classes<br/>
+JSON<br/>
+Debugging<br/>
+JavaScript Version And History<br/>
+* JS Version <br/><br/>
+JS 2009 (ES5)<br/>
+JS 2015 (ES6)<br/>
+JS 2016<br/>
+JS 2017<br/>
+JS 2018<br/>
+JS History<br/>
+* JavaScript Objects <br/><br/>
+Objects Definitions<br/>
+Object Properties<br/>
+Object Methods<br/>
+Object Display<br/>
+Object Accessors<br/>
+Object Constructors<br/>
+Object Prototype<br/>
+Object literables<br/>
+Object Set<br/>
+Object Map<br/>
+Object Reference<br/>
+* JavaScript Function <br/><br/>
+Function Definitions<br/>
+Function Parameters<br/>
+Function Invocation<br/>
+Function Call<br/>
+Function Apply<br/>
+JavaScript Function Closures<br/>
+* JavaScript Classes <br/><br/>
+Class Intro<br/>
+Class Inheritance<br/>
+Static Methods<br/>
+# Not complited bat resently stard after sumit vi relesd next epesode <br/>
+* JS Async <br/><br/>
+JS Callbacks<br/>
+JS Asynchronous<br/>
+JS Promises<br/>
+JS Async/Await<br/>
+* JS HTML DOM <br/><br/>
+JS Dom Intro<br/>
 
-DOM Methods
-DOM Document
-DOM Element
-DOM HTML
-DOM Form
-DOM CSS
-DOM Animation
-DOM Events
-DOM Event Listener
-DOM Navigation
-DOM Elements (Nodes)
-DOM Collections
-DOM Node Lists
-* JS Browser BOM
-JS Window
-JS Screen
-JS Location
-JS History
-JS Navigato
-JS Popup Alert
-JS Timing
-JS Cookies
-* JS Web APIs
-Web APIs - Introduction
-Web forms API
-Web History API
-Web Storage API
-Web Workers API
-Web Fetch API
-Web Geolocation API
-* JS AJAX
-AJAX Introduction
-AJAX XMLHttp
-AJAX Request
-AJAX Response
-AJAX XML File
-AJAX PHP
-AJAX Database
-AJAX Applications
-AJAX Examples
-* JS JSON
-JSON - Introduction
-JSON Syntax
-JSON vs XML
-JSON Data Types
-JSON.parse()
-JSON.stringify()
-JSON Object
-JSON Array
-JSON Server
-JSON PHP
-JSON HTML
-JSON JSONP
-* JS vs jQuery
-jQuery DOM Selectors
-jQuery HTML
-jQuery CSS
-jQuery CSS
+DOM Methods<br/>
+DOM Document<br/>
+DOM Element<br/>
+DOM HTML<br/>
+DOM Form<br/>
+DOM CSS<br/>
+DOM Animation<br/>
+DOM Events<br/>
+DOM Event Listener<br/>
+DOM Navigation<br/>
+DOM Elements (Nodes)<br/>
+DOM Collections<br/>
+DOM Node Lists<br/>
+* JS Browser BOM <br/><br/>
+JS Window<br/>
+JS Screen<br/>
+JS Location<br/>
+JS History<br/>
+JS Navigato<br/>
+JS Popup Alert<br/>
+JS Timing<br/>
+JS Cookies<br/>
+* JS Web APIs <br/><br/>
+Web APIs - Introduction<br/>
+Web forms API<br/>
+Web History API<br/>
+Web Storage API<br/>
+Web Workers API<br/>
+Web Fetch API<br/>
+Web Geolocation API<br/>
+* JS AJAX <br/><br/>
+AJAX Introduction<br/>
+AJAX XMLHttp<br/>
+AJAX Request<br/>
+AJAX Response<br/>
+AJAX XML File<br/>
+AJAX PHP<br/>
+AJAX Database<br/>
+AJAX Applications<br/>
+AJAX Examples<br/>
+* JS JSON <br/><br/>
+JSON - Introduction<br/>
+JSON Syntax<br/>
+JSON vs XML<br/>
+JSON Data Types<br/>
+JSON.parse()<br/>
+JSON.stringify()<br/>
+JSON Object<br/>
+JSON Array<br/>
+JSON Server<br/>
+JSON PHP<br/>
+JSON HTML<br/>
+JSON JSONP<br/>
+* JS vs jQuery <br/><br/>
+jQuery DOM Selectors<br/>
+jQuery HTML<br/>
+jQuery CSS<br/>
+jQuery CSS<br/>
 
 
 
