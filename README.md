@@ -93,6 +93,7 @@ JavaScript Function Closures
 Class Intro
 Class Inheritance
 Static Methods
+# Not complited bat resently stard after sumit vi relesd next epesode
 * JS Async
 JS Callbacks
 JS Asynchronous
